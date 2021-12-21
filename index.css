@@ -190,7 +190,13 @@ input, textarea{
   }
 }
 
-
+@media(max width:400px){
+  .jumb-heading{
+    letter-spacing: 2px;
+    font-size: 35px;
+  }
+  
+}
 
 
 input[type=text], select, textarea {
