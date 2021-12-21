@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+.logo-text{
+    font-family: 'Playball', cursive !important;
+    font-size: 35px !important;
+    color: #026670;
+}
+
+.nav-link{
+    color: #026670 !important;
+}
+
+.nav-link:hover{
+    background-color: rgb(160, 197, 197);
+}
+
+
+.aa{
+  color: #EDEAE5;
+  text-decoration: none;
+}
+
+.a-links, .info-links, .social-links{
+    color: #EDEAE5;   
+    font-style: italic;
+    font-size: 17px;
+}
+
+.aa:hover, .social-links{
+  text-decoration: none !important;
+  color: aqua;
+}
+
+.link-images{
+    width: 30px;
+    height: 30px;
+}
+
+@media(max-width: 760px) {
+    .navbar li {
+        text-align: center !important;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    .last-col{
+        margin-left: 25%;
+    }
+}
+
+
+@media(max-width: 590px) {
+    .last-col{
+        margin-left: 0%;
+    }
+
+    .links-one{
+        margin-top: 50px !important;
+    }
+}
+
+@media(max-width: 1006px) {
+
+   .footer-cont{
+        padding: 40px 10px 20px 10px !important;
+   }
+}

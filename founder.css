@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+.top-part{
+    margin: 100px 150px;
+    background-color: #EDEAE5;
+    border-radius: 10px 20px 20px 40px;
+}
+
+
+.img-founder {
+    width: 400px !important;
+    height: 600px !important;
+    border-radius: 10px 20px 20px 40px;
+    box-shadow: 0 8px 16px 0 rgb(4, 131, 61);
+}
+
+.main-text {
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: #026670;
+}
+
+.h1-text{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color:#9FEDD7;
+    text-align: center;
+}
+
+span{
+    color: red;
+}
+
+.h4-text{
+    text-align: center;
+    color:#026670;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 800 !important;
+    font-size: 40px;
+}
+
+@media(max-width:1200px) {
+    .top-part{
+        margin: 80px 100px;
+    }
+
+    .h1-text{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:990px) {
+    .img-founder{
+        margin: auto;    
+        display: block;
+    }
+}
+
+@media(max-width:666px) {
+    .img-founder{
+        height: 400px !important;
+        width: 300px !important;
+    }
+
+    .top-part{
+        margin: 80px 20px;
+    }
+}

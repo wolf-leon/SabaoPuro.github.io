@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+body{
+  background: #FCE181 !important;
+}
+
+h1{
+  font-family:  cursive !important;
+  font-size: 35px !important;
+  color: #026670;
+  text-align: center;
+  margin: 25px 0px;
+}
+
+.p{
+  font-family: 'Playball', cursive !important;
+  font-size: 20px;
+}
+
+.logo{
+  margin: 5% 20% 0% 20% !important;
+}
+
+
+.card{
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+}
+
+@media(max-width: 975px) {
+  .col-hide{
+    display: none;
+  }
+}
+
+@media(max-width: 590px) {
+  p{
+    padding: 10px 30px;
+  }
+}

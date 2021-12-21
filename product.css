@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap');
+
+body{
+  background: #FCE181 !important;
+}
+
+
+h5{
+  font-family:  cursive !important;
+  font-size: 25px !important;
+  color: #026670;
+  margin: 25px 0px;
+}
+
+h2{
+font-family: 'Open Sans', sans-serif;
+  font-size: 28px !important;
+  color: #026670;
+  text-align: center;
+  margin: 25px 0px;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.image{
+  height:300px; 
+  width:500px !important;
+}
+
+.img-thumbnail{
+  height:250px !important;
+}
+
+.card{
+  margin:10px 20px;
+}
+
+@media(max-width: 1200px) {
+  .col-hide{
+    display: none;
+  }
+
+  .image{
+    height:500px; 
+    width:900px !important;
+  }
+
+}
+
+@media(max-width: 690px) {
+  p{
+    padding: 0px ;
+  }
+  .card{
+     margin:10px 20px;
+  }
+
+  .cards{
+    width: 30rem;
+  }
+}
+
+@media(max-width: 433px) {
+
+ .cards{
+  margin-left: 4%;
+    width: 90% !important;
+  }
+  .related-cards{
+    margin-left: 6% !important;
+    width: 90% !important;
+  }
+}
+
+@media(max-width: 760px) {
+
+  .related-cards{
+     margin-left: 20%;
+   }
+ }
+ 
+ @media(max-width: 507px) {
+
+  .cards{
+    width: 25rem;
+  }
+ }
+ 
