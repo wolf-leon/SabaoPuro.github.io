@@ -14,13 +14,13 @@ font-family: 'Fjalla One', sans-serif; */
 }
 .text {
 	text-transform: uppercase;
-	background: linear-gradient(to right, #fc00ff 0%, #00dbde 100%);
+	background: linear-gradient(to right, #7b4397 0%, #dc2430 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
          margin-top: 100px;
          letter-spacing: 2px;
 	font: {
-		size: 35vw;
+		size: 25vw;
 		family:'Amatic SC', cursive;
 	};
      
