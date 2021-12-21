@@ -174,8 +174,11 @@ input, textarea{
     font-size: 22px;
     letter-spacing: 1px;
   }
-  #benefits, #product-first, #product-second, #product-third, #form, #extra-images, #carousel, #quote{
+  #benefits, #product-first, #product-second, #product-third, #form, #extra-images,  #quote{
     padding: 40px 10px;
+  }
+  #carousel{
+    padding : 40px, 15px;
   }
 
   #benefits{
@@ -190,10 +193,10 @@ input, textarea{
   }
 }
 
-@media(max-width:400px){
+@media(max-width : 400px){
   .jumb-heading{
     letter-spacing: 2px;
-    font-size: 30px;
+    font-size: 10px;
   }
   
 }
