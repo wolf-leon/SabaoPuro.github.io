@@ -8,7 +8,7 @@ font-family: 'Fjalla One', sans-serif; */
 #promo {
   padding: 80px 40px 40px 40px!important;
   background: url("soap_bg.jpg");
-  height: 600px !important;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -20,7 +20,7 @@ font-family: 'Fjalla One', sans-serif; */
          margin-top: 100px;
          letter-spacing: 2px;
 	font: {
-		size: 20vw;
+		size: 25vw;
 		family:'Amatic SC', cursive;
 	};
      
