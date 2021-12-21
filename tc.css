@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.card{
+  margin-left: 30px !important;
+  margin-right: 10px !important;
+  margin-bottom: 10px;
+}
+
+h2,h3{
+  text-align: center;
+  color:#026670;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 800 !important;
+  font-size: 50px;
+}
+
+
+  @media screen and (max-width: 768px) {
+    .card {
+    margin-bottom: 2rem;
+    margin-left: 7.5rem;
+   
+   padding: 4.5px;
+
+    }
+.center{
+  height: 400px;
+  width: 100%;
+}
+  }
+

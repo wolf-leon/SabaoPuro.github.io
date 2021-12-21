@@ -1,0 +1,262 @@
+
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Fjalla One', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Fjalla+One&family=Mukta:wght@800&display=swap');
+
+
+#promo {
+  padding: 80px 40px 40px 40px!important;
+  background: url("soap_bg.jpg");
+  height: 700px !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.jumb-heading{
+  font-family: 'Mukta', sans-serif;
+  letter-spacing: 2px;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.btn{
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 2px;
+  margin: auto;
+  padding: 8px 20px;
+  background-color: plum;
+  margin-left: 10px;
+}
+
+#benefits{
+  background: url(images-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+  padding:40px 35px; 
+  text-align:center;
+}
+
+.benefits-text{
+  font-family: 'Fjalla One', sans-serif;
+  margin: 45px 0px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 0.5px;
+  font-size:3vw;
+}
+
+.benefits-small-text{
+  font-family: 'Amatic SC', cursive;
+  color:#e60f21;
+}
+
+.hiding{
+  display: none;
+}
+
+
+#products-first{
+  background-color: #026670;
+  padding:40px 35px ; 
+  text-align:center;
+  color: #EDEAE5;
+}
+
+.products-text{
+  margin-top: 25px;
+  font-weight: lighter !important;
+}
+
+.products-small-text{
+  margin-top: 20px;
+  font-family: 'Amatic SC', cursive;
+  color:rgb(83, 10, 83);
+  font-size: 30px;
+  font-weight: 300 !important;
+}
+
+.inverted{
+  font-size:45px ;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+
+#products-second{
+  background: url(images-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding:40px 35px ; 
+  text-align:center;
+  color: #EDEAE5;
+}
+
+#products-third{
+  background-color: #026670;
+  padding:40px 35px ; 
+  text-align:center;
+  color: #EDEAE5;
+}
+
+#quote{
+  background: url(images-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align:center;
+  padding:40px 35px ; 
+}
+
+#carousel{
+  text-align:center;
+  padding:40px 35px ; 
+  background-color: #026670;
+  color: #EDEAE5;
+}
+
+.portfolio-image{
+  width:50%;
+  height:400px;
+}
+
+#extra-images{
+  text-align:center !important;
+  padding:40px 35px ; 
+  background: url(images-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #EDEAE5;
+  background-size: 100% 100%;
+  
+}
+
+.img-extra{
+  width: 70%;
+  height: 70% !important;
+}
+
+#gallery{
+  text-align: center;
+  padding:40px 0px; 
+  background-color: #EDEAE5;
+}
+
+.img-gallery{
+  width: 200px;
+  height: 200px;
+}
+
+@media(max-width:1200px){
+  .img-gallery{
+    width: 170px;
+    height: 170px;
+  }
+}
+
+input, textarea{
+  width: 60% !important;
+}
+
+@media (max-width: 990px) {
+  #products-third{
+    padding:40px 10px; 
+  }
+  #carousel{
+    padding:40px 10px; 
+
+  }
+  .portfolio-image{
+    width:100%;
+  }
+
+  input, textarea{
+    width: 90% !important;
+  }
+
+  .img-gallery{
+    width: 190px;
+    height: 190px;
+  }
+}
+
+
+@media(max-width : 770px){
+  .benefits-text{
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+  #benefits, #product-first, #product-second, #product-third, #gallery, #extra-images, #carousel, #quote{
+    padding: 40px 10px;
+  }
+
+  #benefits{
+    background: linear-gradient(rgb(218, 87, 109), white);
+  }
+  .hiding{
+    display: block;
+  }
+  .jumb-heading{
+    letter-spacing: 2px;
+    font-size: 40px;
+  }
+
+  .img-gallery{
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media(max-width: 400px){
+  .jumb-heading{
+    font-size: 35px;
+  }
+}
+
+@media(max-width: 570px){
+  .img-gallery{
+    width: 200px;
+    height: 200px;
+  }
+}
+@media(max-width: 425px){
+  .img-gallery{
+    width: 170px;
+    height: 170px;
+  }
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
