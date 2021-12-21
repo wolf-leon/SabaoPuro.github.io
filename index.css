@@ -11,7 +11,7 @@ font-family: 'Fjalla One', sans-serif; */
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .text {
 	text-transform: uppercase;
@@ -19,9 +19,8 @@ font-family: 'Fjalla One', sans-serif; */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
          margin-top: 100px;
-         letter-spacing: 2px;
 	font: {
-		size: 25vw;
+		size: 30vw;
 		family:'Amatic SC', cursive;
 	};
      
