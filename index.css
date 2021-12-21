@@ -19,7 +19,7 @@ font-family: 'Fjalla One', sans-serif; */
 	-webkit-text-fill-color: transparent;
 	font: {
 		size: 20vw;
-		family: $font;
+		family:'Amatic SC', cursive;
 	};
 }
 
