@@ -172,6 +172,7 @@ input, textarea{
   .benefits-text{
     font-weight: 500;
     font-size: 22px;
+    letter-spacing: 1px;
   }
   #benefits, #product-first, #product-second, #product-third, #form, #extra-images, #carousel, #quote{
     padding: 40px 10px;
@@ -183,7 +184,10 @@ input, textarea{
   .hiding{
     display: block;
   }
-  
+  .jumb-heading{
+    letter-spacing: 2px;
+    font-size: 40px;
+  }
 }
 
 
