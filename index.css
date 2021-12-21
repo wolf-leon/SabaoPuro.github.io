@@ -11,6 +11,7 @@ font-family: 'Fjalla One', sans-serif; */
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.5;
 }
 .text {
 	text-transform: uppercase;
