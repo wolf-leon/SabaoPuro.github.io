@@ -14,7 +14,7 @@ font-family: 'Fjalla One', sans-serif; */
 }
 .text {
 	text-transform: uppercase;
-	background: linear-gradient(to right, #00C9FF 0%, #92FE9D 100%);
+	background: linear-gradient(to right, #fc00ff 0%, #00dbde 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
          margin-top: 100px;
