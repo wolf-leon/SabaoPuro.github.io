@@ -8,7 +8,7 @@ font-family: 'Fjalla One', sans-serif; */
 #promo {
   padding: 80px 40px 40px 40px!important;
   background: url("soap_bg.jpg");
-  height: 600px;
+  height: 700px !important;
   background-repeat: no-repeat;
   background-size: cover;
   
